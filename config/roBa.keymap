@@ -117,10 +117,10 @@
 
         layer_7 {
             bindings = <
-&trans  &kp F2          &kp UP_ARROW    &trans           &trans                      &trans  &trans  &trans  &kp LEFT_BRACKET  &kp PLUS
-&trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans  &trans      &trans  &trans  &trans  &trans  &trans            &trans
-&trans  &trans          &trans          &trans           &trans  &trans      &trans  &trans  &trans  &trans  &trans            &trans
-&trans  &trans          &trans          &trans           &trans  &trans      &trans  &trans                                    &kp JP_UNDERSCORE
+&kp EXCLAMATION  &kp F2          &kp UP_ARROW    &kp F4           &trans                          &trans  &trans  &trans  &kp LEFT_BRACKET  &kp PLUS
+&kp LCTRL        &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans  &trans      &trans      &trans  &trans  &trans  &trans            &trans
+&trans           &kp LC(X)       &kp LC(C)       &kp LC(V)        &trans  &trans      &trans      &trans  &trans  &trans  &trans            &kp QUESTION
+&kp LEFT_SHIFT   &kp LEFT_ALT    &trans          &trans           &trans  &trans      &kp DELETE  &trans                                    &kp JP_UNDERSCORE
             >;
         };
 
@@ -144,10 +144,10 @@
 
         MOUSE {
             bindings = <
-&trans  &trans  &trans  &trans  &trans                      &trans    &trans    &trans    &trans    &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &mkp MB5  &mkp MB1  &mkp MB3  &mkp MB2  &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans    &mkp MB4  &trans    &trans    &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                                  &trans
+&trans  &trans  &trans  &trans  &trans                      &trans    &kp LC(W)  &trans     &trans    &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &mkp MB5  &mkp MB1   &mkp MB3   &mkp MB2  &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans    &mkp MB4   &kp LC(R)  &trans    &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                                    &trans
             >;
         };
 
