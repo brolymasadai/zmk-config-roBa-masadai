@@ -119,10 +119,10 @@
 
         layer_7 {
             bindings = <
-&trans  &trans          &trans  &trans  &trans                      &trans  &trans  &trans  &trans  &kp TILDE
-&trans  &kp LEFT_ARROW  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans          &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans          &trans  &trans  &trans  &trans      &trans  &trans                          &trans
+&trans  &trans          &trans  &trans  &kp LEFT_PARENTHESIS                      &kp RIGHT_PARENTHESIS  &trans  &trans  &trans  &kp TILDE
+&trans  &kp LEFT_ARROW  &trans  &trans  &trans                &trans      &trans  &trans                 &trans  &trans  &trans  &trans
+&trans  &trans          &trans  &trans  &trans                &trans      &trans  &trans                 &trans  &trans  &trans  &trans
+&trans  &trans          &trans  &trans  &trans                &trans      &trans  &trans                                         &trans
             >;
         };
 
@@ -138,7 +138,7 @@
         Num {
             bindings = <
 &kp ESCAPE    &trans           &kp C_VOLUME_UP    &trans       &trans                                    &trans           &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp MINUS
-&kp TAB       &kp LG(LS(S))    &kp C_VOLUME_DOWN  &kp C_MUTE   &kp LG(LC(V))  &trans      &trans         &kp KP_COMMA     &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp COLON
+&kp TAB       &kp LG(LS(S))    &kp C_VOLUME_DOWN  &kp C_MUTE   &kp LG(LC(V))  &trans      &trans         &kp COMMA        &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp COLON
 &kp KP_SLASH  &kp KP_ASTERISK  &kp KP_MINUS       &kp KP_PLUS  &trans         &trans      &trans         &kp KP_NUMBER_0  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp KP_DOT
 &trans        &trans           &trans             &trans       &trans         &trans      &kp BACKSPACE  &kp ENTER                                                           &kp KP_EQUAL
             >;
