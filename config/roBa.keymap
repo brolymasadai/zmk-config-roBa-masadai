@@ -116,7 +116,7 @@
 
         layer_7 {
             bindings = <
-&trans  &kp F2          &kp UP_ARROW    &trans           &kp LEFT_PARENTHESIS                      &kp RIGHT_PARENTHESIS  &trans  &trans  &trans  &kp TILDE
+&trans  &kp F2          &kp UP_ARROW    &trans           &kp LEFT_PARENTHESIS                      &kp RIGHT_PARENTHESIS  &trans  &trans  &trans  &kp TILDE2
 &trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans                &trans      &trans  &trans                 &trans  &trans  &trans  &trans
 &trans  &trans          &trans          &trans           &trans                &trans      &trans  &trans                 &trans  &trans  &trans  &trans
 &trans  &trans          &trans          &trans           &trans                &trans      &trans  &trans                                         &kp UNDERSCORE
