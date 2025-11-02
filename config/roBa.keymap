@@ -115,7 +115,7 @@
             sensor-bindings = <&inc_dec_kp PG_UP PAGE_DOWN>;
         };
 
-        layer_7 {
+        Arrow {
             bindings = <
 &kp EXCLAMATION  &kp F2          &kp UP_ARROW    &kp F4           &kp JP_LPAREN                            &kp JP_RPAREN    &trans  &trans  &kp LEFT_BRACKET  &kp PLUS
 &kp LCTRL        &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans           &trans      &trans      &trans           &trans  &trans  &trans            &trans
@@ -124,7 +124,7 @@
             >;
         };
 
-        SYMBOL {
+        Symbol {
             bindings = <
 &trans  &kp JP_QUOTE     &kp JP_LPAREN  &kp JP_RPAREN     &trans                      &trans           &kp PAGE_UP     &kp UP_ARROW    &kp PAGE_DOWN    &trans
 &trans  &kp DOLLAR       &kp PERCENT    &kp JP_AMPERSAND  &trans  &trans      &trans  &kp PRINTSCREEN  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp LEFT_CONTROL
