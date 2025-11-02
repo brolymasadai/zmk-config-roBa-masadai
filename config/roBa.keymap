@@ -125,10 +125,10 @@
 
         symbol {
             bindings = <
-&trans  &kp SINGLE_QUOTE  &trans             &trans         &trans                      &trans  &trans  &trans  &trans  &trans
-&trans  &kp DOLLAR        &kp PERCENT        &kp AMPERSAND  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &kp EXCLAMATION   &kp DOUBLE_QUOTES  &kp HASH       &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans            &trans             &trans         &trans  &trans      &trans  &trans                          &trans
+&trans  &kp SINGLE_QUOTE  &trans             &trans         &trans                      &trans           &kp PAGE_UP  &trans  &kp PAGE_DOWN  &trans
+&trans  &kp DOLLAR        &kp PERCENT        &kp AMPERSAND  &trans  &trans      &trans  &kp PRINTSCREEN  &trans       &trans  &trans         &kp LEFT_CONTROL
+&trans  &kp EXCLAMATION   &kp DOUBLE_QUOTES  &kp HASH       &trans  &trans      &trans  &trans           &trans       &trans  &trans         &trans
+&trans  &trans            &trans             &trans         &trans  &trans      &trans  &trans                                               &trans
             >;
         };
 
