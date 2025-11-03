@@ -88,6 +88,20 @@
             bindings = <&to 0 &macro_param_1to1 &kp MACRO_PLACEHOLDER>;
             label = "TO_LAYER_0";
         };
+
+        hankakuComma: hankakuComma {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp INT_MUHENKAN &kp COMMA>;
+            label = "HANKAKUCOMMA";
+        };
+
+        pass: pass {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LS(B) &kp O &kp N &kp G &kp O &kp N3 &kp N1 &kp N2 &kp N0>;
+            label = "PASS";
+        };
     };
 
     behaviors {
