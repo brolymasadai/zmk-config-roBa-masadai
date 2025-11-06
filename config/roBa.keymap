@@ -156,8 +156,8 @@
             bindings = <
 &trans  &kp JP_QUOTE     &kp JP_LPAREN  &kp JP_RPAREN     &trans                      &trans           &kp PAGE_UP     &kp UP_ARROW    &kp PAGE_DOWN    &trans
 &trans  &kp DOLLAR       &kp PERCENT    &kp JP_AMPERSAND  &trans  &trans      &trans  &kp PRINTSCREEN  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp LEFT_CONTROL
-&trans  &kp EXCLAMATION  &kp JP_DQUOTE  &kp HASH          &trans  &trans      &trans  &kp LS(LC(N))    &kp HOME        &trans          &kp END          &trans
-&trans  &trans           &trans         &trans            &trans  &trans      &trans  &trans                                                            &trans
+&trans  &kp EXCLAMATION  &kp JP_DQUOTE  &kp HASH          &trans  &trans      &trans  &kp LS(LC(N))    &kp HOME        &trans          &kp END          &kp LS(LEFT_GUI)
+&trans  &trans           &trans         &trans            &trans  &trans      &trans  &trans                                                            &kp LEFT_SHIFT
             >;
         };
 
