@@ -145,10 +145,10 @@
 
         Editing {
             bindings = <
-&kp EXCLAMATION  &kp F2          &kp UP_ARROW    &kp F4           &kp JP_LPAREN                            &kp JP_RPAREN    &trans    &trans    &kp LEFT_BRACKET  &kp PLUS
-&kp LCTRL        &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp LC(T)        &trans      &trans      &mkp MB5         &mkp MB1  &mkp MB3  &mkp MB2          &trans
-&trans           &kp LC(X)       &kp LC(C)       &kp LC(V)        &kp JP_LBRACKET  &trans      &trans      &kp JP_RBRACKET  &mkp MB4  &trans    &trans            &kp QUESTION
-&kp LEFT_SHIFT   &kp LEFT_ALT    &trans          &trans           &trans           &trans      &kp DELETE  &trans                                                 &kp JP_UNDERSCORE
+&kp EXCLAMATION   &kp F2          &kp UP_ARROW    &kp F4           &kp JP_LPAREN                            &kp JP_RPAREN    &trans    &trans    &kp LEFT_BRACKET  &kp PLUS
+&kp LCTRL         &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp LC(T)        &trans      &trans      &mkp MB5         &mkp MB1  &mkp MB3  &mkp MB2          &trans
+&kp LS(LEFT_GUI)  &kp LC(X)       &kp LC(C)       &kp LC(V)        &kp JP_LBRACKET  &trans      &trans      &kp JP_RBRACKET  &mkp MB4  &trans    &trans            &kp QUESTION
+&kp LEFT_SHIFT    &kp LEFT_ALT    &trans          &trans           &trans           &trans      &kp DELETE  &trans                                                 &kp JP_UNDERSCORE
             >;
         };
 
