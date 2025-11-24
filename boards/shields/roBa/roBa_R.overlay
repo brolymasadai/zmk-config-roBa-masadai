@@ -14,11 +14,26 @@
             ;
 };
 
+&zip_temp_layer {
+    excluded-positions = <
+        6 // u
+        7 // i
+        17 // h
+        18 // j
+        19 // k
+        20 // l
+        30 // m
+        31 // ,
+    >;
+};
+
 / {
     trackball_listener {
         status = "okay";
         compatible = "zmk,input-listener";
         device = <&trackball>;
+
+        input-processors = <&zip_temp_layer 4 800>;
     };
 };
 
