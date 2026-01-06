@@ -24,15 +24,13 @@
 #define JP_EISU         LANGUAGE_2        // 英数
 #define JP_HANZEN       GRAVE             // 半角/全角
 
+#include <input/processors.dtsi>
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/pointing.h>
 
-#include <input/processors.dtsi>
-&mkp_input_listener {
-    input-processors = <&zip_temp_layer 4 800>;
-};
+&mkp_input_listener { input-processors = <&zip_temp_layer 4 800>; };
 
 &mt {
     flavor = "balanced";
@@ -124,7 +122,7 @@
         pass: pass {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LS(B) &kp O &kp N &kp G &kp O &kp N3 &kp N1 &kp N2 &kp N0>;
+            bindings = <&kp LS(B) &kp LS(O) &kp N &kp G &kp O &kp N3 &kp N1 &kp N2 &kp N0>;
             label = "PASS";
         };
     };
